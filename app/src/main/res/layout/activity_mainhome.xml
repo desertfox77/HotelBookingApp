@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#61BFBF"
+    tools:context=".mainhome">
+    <TextView
+        android:id="@+id/kedua"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+
+        android:textColor="#000000"
+        android:textSize="28dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/pertama"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:text="KuyKuy"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp">
+
+    </TextView>
+
+    <SearchView
+        android:id="@+id/searchview"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_bg"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Hotel"
+        android:layout_gravity="center">
+
+    </SearchView>
+    <TextView
+        android:id="@+id/ketiga"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+
+        >
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="8dp">
+        <ListView
+            android:id="@+id/lv_product"
+            android:layout_width="372dp"
+            android:layout_height="438dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:bottomLeftRadius="20dp"
+            android:bottomRightRadius="30dp"
+            android:topLeftRadius="20dp"
+            android:topRightRadius="30dp">
+
+        </ListView>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

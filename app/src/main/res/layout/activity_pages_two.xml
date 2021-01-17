@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61BFBF"
+    tools:context=".PagesTwo">
+
+    <TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="KuyKuy"
+        android:textColor="@color/white"
+        android:layout_marginLeft="160dp"
+        android:textSize="24sp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginTop="350dp" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="173dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/travel" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our app!"
+        android:textColor="@color/white"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:textSize="24sp" />
+
+        <Button
+    android:id="@+id/Register"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bt_bg"
+            android:layout_marginLeft="250dp"
+    android:text="Register"
+    android:textColor="@color/white"
+        android:layout_marginBottom="300dp"
+        android:layout_marginTop="500dp"
+   />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/bt_bg"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
